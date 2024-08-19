@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 100px;
+    width: 150px;
+}
+
+.score {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+}
+#poeng {
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    justify-content: flex;
+}
+
+#firstNumber {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#secondNumber {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#alertBox {
+    margin-top: 10px;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.alert-green {
+    background-color: green;
+}
+
+.alert-red {
+    background-color: red;
+}
+
+.alert-orange {
+    background-color: orange;
+}
+
+.fontColor {
+    color: black;
+}
